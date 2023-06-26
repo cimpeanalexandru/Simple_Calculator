@@ -1,3 +1,5 @@
+// Everything works as intended at the last commit 
+
 class Calculator {
   constructor(previousOperandTextElement, currentOperandTextElement) {
     this.previousOperandTextElement = previousOperandTextElement;
@@ -123,3 +125,5 @@ deleteButton.addEventListener('click', () => {
   calculator.delete();
   calculator.updateDisplay();
 });
+
+
